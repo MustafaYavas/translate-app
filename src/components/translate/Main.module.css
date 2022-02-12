@@ -1,0 +1,12 @@
+.parent-content{
+    height: 100vh;
+}
+
+.child-content{
+    height: 40vh;
+    padding: 2rem;
+}
+
+text:read-only{
+    color: blue
+}

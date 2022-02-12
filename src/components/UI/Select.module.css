@@ -1,0 +1,9 @@
+.select__size {
+    padding: .5rem;
+}
+.select__selectect_color {
+    color: black;
+}
+.select__position {
+    float: right;
+}

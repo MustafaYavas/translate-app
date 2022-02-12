@@ -1,0 +1,8 @@
+.textarea{
+    border: none;
+    resize: none;
+    padding: 2rem;
+    /* border-radius: .5rem; */
+    width: 100%;
+}
+
