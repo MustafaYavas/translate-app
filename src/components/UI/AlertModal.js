@@ -1,5 +1,5 @@
-import React from "react";
-import {Button, Modal} from "react-bootstrap"
+import React from 'react';
+import {Button, Modal} from 'react-bootstrap'
 
 const AlertModal = (props) => {
     
@@ -11,7 +11,7 @@ const AlertModal = (props) => {
                 </Modal.Header>
                 <Modal.Body>Text passes the 750 character limit!</Modal.Body>
                 <Modal.Footer>
-                <Button variant="primary" onClick={props.handleClose}>
+                <Button variant='primary' onClick={props.handleClose}>
                     Close
                 </Button>
                 </Modal.Footer>

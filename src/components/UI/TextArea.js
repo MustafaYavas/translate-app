@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./TextArea.module.css";
+import React from 'react';
+import styles from './TextArea.module.css';
 
 const TextArea =  (props) => {
     return (
@@ -9,7 +9,7 @@ const TextArea =  (props) => {
             placeholder={props.placeholder}
             cols={props.colNumber}
             rows={props.rowNumber}
-            resize="none"
+            resize='none'
             value={props.value}
             readOnly={props.readonly || false}
         />

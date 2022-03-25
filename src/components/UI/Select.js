@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from "react";
-import axios from "axios";
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
-import styles from "./Select.module.css";
+import styles from './Select.module.css';
 
 const Select = (props) => {
     const [languages, setLanguages] = useState([]);
@@ -9,11 +9,11 @@ const Select = (props) => {
 
     useEffect(() => {
         const languageDatas = {
-            method: "GET",
-            url: "https://simple-elegant-translation-service.p.rapidapi.com/getSupportedLanguages",
+            method: 'GET',
+            url: 'https://simple-elegant-translation-service.p.rapidapi.com/getSupportedLanguages',
             headers: {
-              "x-rapidapi-host": "simple-elegant-translation-service.p.rapidapi.com",
-              "x-rapidapi-key": `${process.env.REACT_APP_API_KEY}`
+              'x-rapidapi-host': 'simple-elegant-translation-service.p.rapidapi.com',
+              'x-rapidapi-key': `${process.env.REACT_APP_API_KEY}`
             }
         };
 
@@ -38,7 +38,7 @@ const Select = (props) => {
     return(
         <select
             value={props.value}
-            className={`${props.className} ${styles["select__size"]} ${styles["select__selectect_color"]} ${styles["select__position"]}`}
+            className={`${props.className} ${styles['select__size']} ${styles['select__selectect_color']} ${styles['select__position']}`}
             onChange={props.onChange}
         >
             {
