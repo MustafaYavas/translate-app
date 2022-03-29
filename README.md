@@ -4,6 +4,7 @@ An instant translation application created with React.js and Bootstrap
 
 
 ## Table of Contents
+* [Preview](#preview)
 * [Technologies](#technologies)
 * [API](#APIs)
 * [Install](#install)
@@ -14,6 +15,9 @@ An instant translation application created with React.js and Bootstrap
 
 The application automatically detects the language of the entered text and translates into the language chosen by the user.
 
+## Preview
+
+![preview](src/assets/preview.gif)
 
 ## Technologies
 * [React.js](https://reactjs.org/)
