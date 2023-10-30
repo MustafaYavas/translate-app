@@ -34,7 +34,7 @@ $ npm install
 $ npm start
 ```
 
-*Please get your own [API key](https://www.themoviedb.org/documentation/api/) before running the application on your local computer.*
+*Please get your own [API key](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-translator-text/) before running the application on your local computer.*
 
 
 ## Update sources
